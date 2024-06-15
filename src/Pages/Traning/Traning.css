@@ -1,0 +1,72 @@
+.traning-main-page-laptop {
+    min-height: 620px;
+    background-color: aliceblue;
+    border: 1PX solid orange;
+}
+
+.traning-start-page {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.flex-image-and-paragraph {
+    width: 30%;
+   height: 300px;
+    margin-left: 10px;   
+}
+
+.imagesizing {
+    width: 100%;
+    height: 200px;
+    border-color: orange;
+}
+.line-color-traning{
+    width: 50px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 30px;
+    margin-left: 14px;
+    
+}
+
+.heading-text{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10PX;
+    text-align: start;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.trining-text{
+    text-align: center;
+    margin: 20px;
+}
+.paragraph-height {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px;
+    
+}
+
+@media(max-width:1000px){
+    .traning-start-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-image-and-paragraph{
+        width: 900px;
+        height: 590px;
+
+    }
+    .imagesizing{
+        height: 400px;
+        width: 850px;
+    }
+    .paragraph-height{
+        font-size: 20px;
+        line-height: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}

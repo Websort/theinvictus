@@ -1,0 +1,127 @@
+.dreamdestineation-main-page{
+    background-color: aliceblue;
+    min-width: 100%;
+    height: auto;
+}
+.background-cont{
+    background-color: red;
+    height: 300px;
+    max-width: 500px;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    justify-content: center;
+   
+}
+.background1{
+    background-image: url("https://images.unsplash.com/photo-1608644436625-a694e690d0ac?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXVzdHJhbGlhbnxlbnwwfHwwfHx8MA%3D%3D");
+}
+
+.background-canada{
+    background-image: url("https://www.zoocasa.com/_next/image?url=https%3A%2F%2Fcdn0.zoocasa.com%2Fimages%2Flistings%2F5ecb7c2e-bc13-4b07-915b-1942e6b7aa41.jpg&w=480&q=75");
+}
+.background-ireland{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBs2mvm--jmQkC72wXBcUctSihm6tzVQLtpg&s");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.background-newzealand{
+    background-image: url("https://canterburyconsultancy.com/wp-content/uploads/2022/10/4e4195aa-b9ca-42cd-923f-e8a65c8c5c7b.jpg");
+    background-repeat: no-repeat;
+        background-size: cover;
+}
+.background-united-kingdom {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgbgGdyKdfsoxvNjeJgvwbMlh-tQWxs98RZg&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-united-State{
+    background-image: url("https://wallpaper.forfun.com/fetch/8e/8e0acbcfdea1fdfb8c0c2784643c1dd7.jpeg");
+    background-repeat: no-repeat;
+        background-size: cover;
+}   
+.six-dream-text{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    text-align: start;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.six-dream-paragraph-text {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.under-line-for-six-destination{
+    width:100px;
+    height: 10px;
+    background-color: orangered;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+.hovering-container{
+    background-color:transparent;
+    border: 1px solid orange;
+    height: 300px;
+    max-width: 500px;
+    display: none;
+    border-radius: 20px;
+}
+.main-cont{
+    width: 32%;
+}
+.main-cont:hover{
+    .background-cont{
+        display: none;
+    }
+    .hovering-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+            margin-left: 20px;
+    }
+}
+.cards-flex-fro-travel-card{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.discover-btn{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(0, 106, 255);
+    color: #ffffff;
+    align-self: center;
+    margin-top: 40px;
+    border-radius: 20px;
+    border-color: none;
+    border-style: none;
+}
+
+
+@media(max-width:1000px){
+      
+            .main-cont{
+                width: 45%;
+                margin-left: 10px;
+            }
+                .hovering-container {
+                    background-color: transparent;
+                    border: 1px solid orange;
+                    height: 300px;
+                    max-width: 500px;
+                    display: none;
+                    border-radius: 20px;
+                }
+
+}

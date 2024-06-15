@@ -1,0 +1,17 @@
+.inputsize {
+    width: 230px;
+    height: 40px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 7px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.Scholarshipbutton {
+    width: 180px;
+    height: 60px;
+    background-color: rgb(35, 55, 207);
+    color: aliceblue;
+    border-radius: 20px;
+}
