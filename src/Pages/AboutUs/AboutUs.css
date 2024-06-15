@@ -1,0 +1,87 @@
+
+.aboutus-image-page {
+    background-image: url("https://www.blogtyrant.com/wp-content/uploads/2011/02/best-about-us-pages.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  color: rgb(252, 127, 69);
+   justify-content: center;
+   font-size: 20px;
+ padding-left: 20px;
+   
+}
+.paragraph-text{
+    background-color: aliceblue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      font-size: 15px;
+}
+.text-heading{
+   background-color: antiquewhite;
+    font-size: 40px;
+    height: 100px;
+    padding-top: 50px;
+    
+}
+.text-heading1{
+background-color: rgba(218, 229, 238, 0.448);
+    font-size: 50px;
+        height: 100px;
+        padding-top: 30px;
+        text-align: center;
+}
+.pg-line{
+    background-color: rgba(255, 119, 0, 0.893);
+    height: 20px;
+    width: 100px;
+}
+.founders-card{
+    width: 100%;
+    mix-height:100vh;
+    background-color:rgb(85, 69, 69);
+    color: aliceblue;
+}
+.founder-image-sizing{
+    width: 350px;
+    height: 400px;
+    margin-right: 40px;
+}
+.founders-card-flex{
+    display: flex;
+    width: 100%;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+border-bottom: none;
+   gap: 10px;
+   padding: 20px;
+   background-color: aliceblue;
+   margin-bottom: 10px;
+   border-radius: 120px;
+border: 2px solid rgba(255, 183, 0, 0.755);
+   color:darkcyan;
+   padding: 30px;
+}
+.paragraph-content-size{
+    font-size: 20px;
+}
+.fonder-line-coloring{
+    background-color: rgb(255, 123, 0);
+    width: 50px;
+    height: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.founder-heading{
+    font-size: 30px;
+    font-style:Roboton;
+    margin-top: 10px;
+    margin-left: 10px;
+}
